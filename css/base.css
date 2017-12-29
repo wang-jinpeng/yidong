@@ -1,0 +1,39 @@
+/*
+* @Author: liu
+* @Date:   2017-12-02 11:30:08
+* @Last Modified by:   liu
+* @Last Modified time: 2017-12-04 10:23:45
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+img{
+	border: none;
+}
+i{
+	font-style: normal;
+}
+input:focus{
+	border:0;
+	outline: none;
+}
+@font-face {
+	font-family: 'iconfont';  /* project id 500137 */
+	src: url('//at.alicdn.com/t/font_500137_0zt7s8xgz3qv9529.eot');
+	src: url('//at.alicdn.com/t/font_500137_0zt7s8xgz3qv9529.eot?#iefix') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_500137_0zt7s8xgz3qv9529.woff') format('woff'),
+	url('//at.alicdn.com/t/font_500137_0zt7s8xgz3qv9529.ttf') format('truetype'),
+	url('//at.alicdn.com/t/font_500137_0zt7s8xgz3qv9529.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont";
+}
+em{
+	font-style: normal;
+}
