@@ -1315,3 +1315,182 @@ footer a:hover{
     align-items: flex-end;
     line-height: 25px;
 }
+.header{
+    width: 100%;
+    height: 61px;
+    background: #FFFFFF;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    border-bottom: 1px solid #24a7f9;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    display: none;
+}
+.head-1200{
+    width: 1200px;
+    height: 61px;
+    margin: 0 auto;
+}
+.head-1200 a{
+    display: block;
+    float: left;
+}
+.head-1200 a img{
+    width: 230px;
+    height: 42px;
+    margin-top: 9px;
+}
+.header .nav{
+    float: left;
+    width: 589px;
+    height: 50px;
+    padding-top: 11px;
+    padding-left: 45px;
+}
+.header .nav li{
+    float: left;
+    height: 50px;
+    padding: 0 17px;
+}
+.header .nav li a{
+    display: block;
+    height: 33px;
+    padding: 0 7px;
+    font: 16px/33px "microsoft yahei";
+    color: #222222;
+    background: #ffffff;
+    border-radius: 5px;
+}
+.header .nav li .active{
+    color: #ffffff;
+    background: #2ba7ff;
+}
+.header .nav li a:hover{
+    color: #ffffff;
+    background: #2ba7ff;
+}
+.header-sousuo{
+    float: right;
+    width: 285px;
+    height: 45px;
+    padding-top: 11px;
+    margin-right: 50px;
+}
+.header-sousuo .input{
+
+    padding-top: 0px;
+    position: relative;
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    background: url(../img/searchBg_t.jpg) no-repeat left center;
+}
+.header-sousuo .input .sousuo{
+    outline: none;
+    border: 0;
+    color: #666666;
+    height: 28px;
+    width: 200px;
+    margin-top: 4px;
+    margin-left:5px;
+    padding-left: 5px;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    float: left;
+}
+.header-sousuo .btn{
+    width: 72px;
+    height: 36px;
+    float: right;
+    box-sizing: border-box;
+    /*background: #000000;*/
+}
+.header-sousuo .btn .tijiao{
+    width: 72px;
+    height: 28px;
+    margin-left: 0px;
+    margin-top: 3px;
+    padding: 0px;
+    border: none;
+    background: #25b2fe;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.cedaohang{
+    width: 40px;
+    height: 280px;
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -660px;
+    display: none;
+    z-index: 999;
+    /*background: red;*/
+}
+.cedaohang ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 39px;
+    padding: 0 2px;
+    color: #333333;
+    text-align: center;
+    line-height: 15px;
+    border-bottom: 1px dotted #c2c2c2;
+    background: #ffffff;
+    position: relative;
+    box-sizing: content-box;
+    font-size: 12px;
+    cursor: pointer;
+}
+.cedaohang .back{
+    width: 32px;
+    height: 54px;
+    background: #918888;
+    cursor: pointer;
+    overflow: hidden;
+}
+.cedaohang .back img{
+    display: block;
+    width: 7px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+.cedaohang .back span{
+    display: block;
+    width: 28px;
+    height: 30px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 15px;
+    padding-top: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+.cedaohang ul .active{
+    color: #ffffff;
+    background: #00b0f9;
+}
+.cedaohang ul li span{
+    display: none;
+    height: 39px;
+    position: absolute;
+    top:0;
+    left: 0;
+    font-size: 12px;
+    color: #FFFFFF;
+    background: #00b0f9;
+    line-height: 15px;
+    padding-top: 5px;
+}
+.cedaohang ul li:hover span{
+    display: block;
+}
+.cedaohang ul li span.active{
+    display: block;
+}
