@@ -136,3 +136,20 @@
         }
     }
 }
+{
+    let box=document.querySelector(".gundong ul");
+    let box1=document.querySelector(".gundong ul li");
+    let n=0;
+    let st=setInterval(function () {
+        n++;
+        if (n===1){
+            box.style.transition="all 0.5s"
+        }
+        box.style.marginLeft=-[n]*242+"px";
+        if (n===5){
+            box.style.transition="none";
+            box.style.marginLeft=0;
+            n=0;
+        }
+    },3000)
+}
