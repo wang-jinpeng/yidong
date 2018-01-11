@@ -61,6 +61,20 @@
             })
     })
 }
+//输入框
+{
+    let con=document.querySelector(".sousuo .shuru")
+    con.onfocus=function(){
+        if(con.value == "流量" )	{
+            con.value = ""
+        }
+    }
+    con.onblur = function() {
+        if(con.value === "")
+            con.value = "流量"
+    }
+}
+//侧导航
 {
     {
         let topbar = document.querySelector('.header');
@@ -105,8 +119,9 @@
         navs.forEach(function(ele, index) {
             ele.onclick = function() {
                 flag = false;
+
                 let st = floors[index].offsetTop;
-                // st -= 60;
+                st -= 50;
                 let now = document.documentElement.scrollTop;
                 let speed = (st - now) * 30 / 300;
                 let time = 0;
@@ -119,6 +134,7 @@
                         flag = true;
                     }
                     document.documentElement.scrollTop = now;
+
                 }, 30)
             }
         });
@@ -136,20 +152,123 @@
         }
     }
 }
+//banner选项卡
 {
-    let box=document.querySelector(".gundong ul");
-    let box1=document.querySelector(".gundong ul li");
-    let n=0;
-    let st=setInterval(function () {
-        n++;
-        if (n===1){
-            box.style.transition="all 0.5s"
+        let btn = document.querySelectorAll('.banner .list li');
+        let box = document.querySelectorAll('.banner .navbox');
+        let big = document.querySelector('.banner');
+        btn.forEach(function (ele, index) {
+            ele.onmouseover = function () {
+                for (let i = 0; i < box.length; i++) {
+                    box[i].style.display='none';
+                }
+                // this.classList.add('active');
+                box[index].style.display='block';
+                n = index
+            }
+        });
+        big.onmouseleave = function () {
+            for (let i = 0; i < box.length; i++) {
+                box[i].style.display='none';
+            }
         }
-        box.style.marginLeft=-[n]*242+"px";
-        if (n===5){
-            box.style.transition="none";
-            box.style.marginLeft=0;
-            n=0;
+
+}
+//优惠专区
+    {
+        let next = document.querySelector(".btn-left");
+        let prev = document.querySelector(".btn-right");
+        let box = document.querySelector(".gundong ul li");
+        let danping=document.querySelector(".gundong ul")
+        let n=2
+        let flag=true
+        let dir="right"
+        let st=setInterval(moveFu,2000)
+        function moveFu(){
+            if(dir==="right"){
+                n++
+            }else{
+                n--
+            }
+            danping.style.marginLeft=-n*241+"px"
+            danping.style.transition="all 1s"
         }
-    },3000)
+        danping.addEventListener("transitionend",function(){
+            flag=true
+            if(n===7){
+                n=2
+                danping.style.transition="none"
+                danping.style.marginLeft="-482px"
+            }
+            if(n===0){
+                n=5
+                danping.style.transition="none"
+                danping.style.marginLeft="-1205px"
+            }
+        })
+        window.onblur=box.onmouseover=function(){
+            clearInterval(st);
+        }
+        window.onfocus=box.onmouseout=function(){
+            st=setInterval(moveFu,2000)
+        }
+        next.onclick=function(){
+            if(flag){
+                dir="right"
+                flag=false
+                moveFu();
+            }
+        }
+        prev.onclick=function(){
+            if(flag){
+                dir="left"
+                flag=false
+                moveFu();
+            }
+        }
+    }
+
+//5F轮播
+{
+    let banner=document.querySelectorAll(".f5-bar li");
+    let btn=document.querySelectorAll(".yuan li")
+    let box=document.querySelector(".f5-bar")
+    btn.forEach(function(ele,index){
+        ele.onmouseover=()=>{
+            for(let i=0;i<btn.length;i++){
+                btn[i].classList.remove("active")
+                banner[i].classList.remove("active")
+            }
+            btn[index].classList.add("active")
+            banner[index].classList.add("active")
+            n = index;
+        }
+    })
+    let n = 0;
+    function bannerdh(x) {
+        if(x) {
+            n--;
+        } else {
+            n++;
+        }
+        if(n === -1) {
+            n = banner.length - 1
+        }
+        if(n == banner.length) {
+            n = 0
+        }
+        for(let i = 0; i < btn.length; i++) {
+            btn[i].classList.remove("active");
+            banner[i].classList.remove("active");
+        }
+        btn[n].classList.add("active");
+        banner[n].classList.add("active");
+    }
+    let st = setInterval(bannerdh, 3000);
+    box.onmouseover = function() {
+        clearInterval(st)
+    };
+    box.onmouseout = function() {
+        st = setInterval(bannerdh, 3000);
+    }
 }

@@ -51,6 +51,7 @@
 }
 .daohang .neikuan .daohang-right ul li{
     float: right;
+    position: relative;
 }
 .daohang .neikuan .daohang-right ul li a{
     display: block;
@@ -58,11 +59,34 @@
     color: #808080;
     line-height: 30px;
 }
+.daohang .neikuan .daohang-right ul li .erweima{
+    width: 160px;
+    height: 160px;
+    border: 1px solid #dfddde;
+    background: #ffffff;
+    position: absolute;
+    left: 0 ;
+    top: 29px;
+    z-index: 111;
+    display: none;
+}
+.daohang .neikuan .daohang-right ul li .erweima img {
+    margin: 20px auto 0;
+    display: block;
+}
+.daohang .neikuan .daohang-right ul li .erweima p {
+    font: 14px/30px "microsoft yahei";
+    color: #333;
+    text-align: center;
+}
 .daohang .neikuan .daohang-right ul li a:hover{
     color: #3eb4fa  ;
 }
 .daohang .neikuan .daohang-right ul li:nth-child(6){
     background: url("../img/daohang.png") no-repeat center;
+}
+.daohang .neikuan .daohang-right ul li:nth-child(6):hover .erweima{
+    display: block;
 }
 .toubu{
     width: 1200px;
@@ -190,7 +214,6 @@
     margin: 0 auto;
     position: relative;
     background: #ffffff;
-    overflow: hidden;
 }
 .banner .list{
     float: left;
@@ -205,6 +228,7 @@
 }
 .banner .list li:hover{
     border-color: #3eb4fa;
+    border-right: #fff;
 }
 .banner .list li a{
     float: left;
@@ -300,6 +324,7 @@
     left: 0;
     opacity: 1;
     z-index: 99;
+    cursor: pointer;
 }
 .banner .right{
     left: 671px;
@@ -474,6 +499,81 @@
     background: #3eb4fa;
     line-height: 34px;
 }
+.navbox {
+    display: none;
+    width: 963px;
+    height: auto;
+    border: 1px solid #3eb4fa;
+    background: #ffffff;
+    position: absolute;
+    left: 235px;
+    top: -1px;
+    z-index: 29;
+}
+.navbox_yy {
+    width: 710px;
+}
+.navbox .navboxLeft {
+    float: left;
+    width: 640px;
+    min-height: 396px;
+    padding: 10px 30px;
+}
+.navbox .navboxLeft dl {
+    float: left;
+    width: 640px;
+    padding: 5px 0;
+}
+.navbox .navboxLeft dl dt {
+    float: left;
+    width: 80px;
+    font: bold 12px/30px "microsoft yahei";
+    color: #494949;
+    background: url(../img/nav_bgli2.jpg) no-repeat 65px center;
+}
+.navbox .navboxLeft dl dt a{
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    color: #666;
+}
+.navbox .navboxLeft dl dt a:hover{
+    color: #0085d0;
+}
+.navbox .navboxLeft dl dd {
+    float: left;
+    width: 560px;
+    min-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.navbox .navboxLeft dl dd a {
+    display: block;
+    float: left;
+    height: 20px;
+    padding: 0 10px;
+    margin: 5px 0;
+    font: 12px/20px "microsoft yahei";
+    color: #494949;
+    border-right: 1px solid #d7d7d7;
+}
+.navbox .navboxLeft dl dd a:hover {
+    color: #eb4099;
+}
+.navbox .navboxLeft dl dd a.more {
+    color: #3eb4fa;
+    border-right: none;
+}
+.navboxRight {
+    float: left;
+    width: 230px;
+    height: 396px;
+    padding: 10px 30px 10px 0px;
+    background: #ffffff;
+}
+.navboxRight img {
+    display: block;
+    margin-bottom: 20px;
+}
 .youhui{
     width: 1200px;
     margin: 20px auto 0;
@@ -500,6 +600,7 @@
     position: relative;
     width: 5000px;
     height: 170px;
+    margin-left: -482px;
 }
 .youhui ul li{
     position: relative;
@@ -1012,6 +1113,11 @@ h4{
     height: 100%;
     top: 0;
     left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.f5-bar>li.active{
+    opacity: 1;
 }
 .f5-bar li img{
     width: 100%;
@@ -1034,7 +1140,7 @@ h4{
     margin: 0 2px;
     background: #5d5d5c;
 }
-.f5-bar .yuan .color{
+.f5-bar .yuan li.active{
     background: #e40078;
 }
 .f5-bar1{
@@ -1493,4 +1599,70 @@ footer a:hover{
 }
 .cedaohang ul li span.active{
     display: block;
+}
+.shdf{
+    width: 40px;
+    height: 118px;
+    position: fixed;
+    right: 0px;
+    top: 290px;
+    z-index: 900;
+}
+.shdf a img{
+    display: block;
+}
+.zxkf{
+    width: 100px;
+    height: auto;
+    position: fixed;
+    right: 0px;
+    top: 420px;
+    z-index: 900;
+}
+.zxkf li{
+    width: 100px;
+    height: 38px;
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+.zxkf li:hover a.lg1{
+    background: #3EB4FA url(../img/kf1.png) no-repeat center center;
+}
+.zxkf li:hover a.lg2{
+    background: #3EB4FA url(../img/kf2.png) no-repeat center center;
+}
+.zxkf li:hover a.lg3{
+    background: #3EB4FA url(../img/kf3.png) no-repeat center center;
+}
+.zxkf li:hover .lg_wz{
+    display: block;
+    background: #3EB4FA;
+}
+.zxkf li a{
+    display: block;
+    float: right;
+}
+.zxkf li a.logo{
+    width: 40px;
+    height: 38px;
+    transition: 0s;
+}
+.zxkf li a.lg1{
+    background: #918888 url(../img/kf1.png) no-repeat center center;
+}
+.zxkf li a.lg2{
+    background: #918888 url(../img/kf2.png) no-repeat center center;
+}
+.zxkf li a.lg3{
+    background: #918888 url(../img/kf3.png) no-repeat center center;
+}
+.zxkf li a.lg_wz{
+    display: none;
+    width: 60px;
+    height: 38px;
+    text-align: center;
+    font: bold 12px/38px "microsoft yahei";
+    color: #ffffff;
+    background: #d5d5d5;
+    overflow: hidden;
 }
