@@ -245,16 +245,15 @@
         }
     })
     let n = 0;
-    function bannerdh(x) {
-        if(x) {
-            n--;
-        } else {
-            n++;
+    function bannerdh() {
+        n++;
+        if (n>=4){
+            n = 0
         }
         if(n === -1) {
-            n = banner.length - 1
+            n == banner.length - 1
         }
-        if(n == banner.length) {
+        if(n === banner.length) {
             n = 0
         }
         for(let i = 0; i < btn.length; i++) {

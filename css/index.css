@@ -1,34 +1,40 @@
 @import "base.css";
-.daohang{
+
+.daohang {
     width: 100%;
     height: 30px;
     margin: 0 auto;
     background: #f5f5f5;
     z-index: 10;
 }
-.daohang .neikuan{
+
+.daohang .neikuan {
     width: 1200px;
     height: 30px;
     margin: 0 auto;
     font-size: 12px;
     color: #808080;
 }
-.daohang .neikuan .daohang-left{
+
+.daohang .neikuan .daohang-left {
     float: left;
 }
-.daohang .neikuan .daohang-left span{
+
+.daohang .neikuan .daohang-left span {
     display: inline-block;
     float: left;
     padding-right: 10px;
     line-height: 30px;
 }
-.daohang .neikuan .daohang-left .denglu{
+
+.daohang .neikuan .daohang-left .denglu {
     float: left;
     width: 72px;
     height: 30px;
     position: relative;
 }
-.daohang .neikuan .daohang-left .denglu a{
+
+.daohang .neikuan .daohang-left .denglu a {
     transition: 0s;
     display: inline-block;
     width: 70px;
@@ -41,83 +47,99 @@
     top: 0;
     line-height: 30px;
 }
-.daohang .neikuan .daohang-right{
-    float:right ;
-    height:30px;
+
+.daohang .neikuan .daohang-right {
+    float: right;
+    height: 30px;
 }
-.daohang .neikuan .daohang-right ul{
-    float:right;
+
+.daohang .neikuan .daohang-right ul {
+    float: right;
     height: 100%;
 }
-.daohang .neikuan .daohang-right ul li{
+
+.daohang .neikuan .daohang-right ul li {
     float: right;
     position: relative;
 }
-.daohang .neikuan .daohang-right ul li a{
+
+.daohang .neikuan .daohang-right ul li a {
     display: block;
     padding: 0 17px;
     color: #808080;
     line-height: 30px;
 }
-.daohang .neikuan .daohang-right ul li .erweima{
+
+.daohang .neikuan .daohang-right ul li .erweima {
     width: 160px;
     height: 160px;
     border: 1px solid #dfddde;
     background: #ffffff;
     position: absolute;
-    left: 0 ;
+    left: 0;
     top: 29px;
     z-index: 111;
     display: none;
 }
+
 .daohang .neikuan .daohang-right ul li .erweima img {
     margin: 20px auto 0;
     display: block;
 }
+
 .daohang .neikuan .daohang-right ul li .erweima p {
     font: 14px/30px "microsoft yahei";
     color: #333;
     text-align: center;
 }
-.daohang .neikuan .daohang-right ul li a:hover{
-    color: #3eb4fa  ;
+
+.daohang .neikuan .daohang-right ul li a:hover {
+    color: #3eb4fa;
 }
-.daohang .neikuan .daohang-right ul li:nth-child(6){
+
+.daohang .neikuan .daohang-right ul li:nth-child(6) {
     background: url("../img/daohang.png") no-repeat center;
 }
-.daohang .neikuan .daohang-right ul li:nth-child(6):hover .erweima{
+
+.daohang .neikuan .daohang-right ul li:nth-child(6):hover .erweima {
     display: block;
 }
-.toubu{
+
+.toubu {
     width: 1200px;
     height: 88px;
     margin: 0 auto;
 }
-.toubu .logo img{
+
+.toubu .logo img {
     float: left;
     width: 230px;
     height: auto;
     margin: 20px 0 0 0;
 }
-.toubu .diqu{
+
+.toubu .diqu {
     float: left;
     margin: 40px 0 0 35px;
     position: relative;
 }
-.toubu .diqu .dq{
+
+.toubu .diqu .dq {
     height: 18px;
     padding: 0 15px 0 0;
     font-size: 16px;
     color: #333333;
     background: url("../img/dq.png") no-repeat right center;
 }
-.toubu .toubu-right{
+
+.toubu .toubu-right {
     position: relative;
     float: right;
     margin-top: 12px;
     box-sizing: border-box;
 }
-.toubu .toubu-right .sousuo{
+
+.toubu .toubu-right .sousuo {
     padding-top: 10px;
     border: 1px solid transparent;
     width: 500px;
@@ -125,7 +147,8 @@
     background: url(../img/sousuo.png) no-repeat;
     height: 42px;
 }
-.toubu .toubu-right .sousuo .shuru{
+
+.toubu .toubu-right .sousuo .shuru {
     border: 0;
     color: #666666;
     height: 32px;
@@ -136,7 +159,8 @@
     background: none;
     width: 400px;
 }
-.toubu .toubu-right .sousuo .dianji{
+
+.toubu .toubu-right .sousuo .dianji {
     display: block;
     width: 80px;
     height: 36px;
@@ -144,40 +168,47 @@
     right: 15px;
     top: 10px;
 }
-.toubu .toubu-right .sousuo .dianji .dj{
+
+.toubu .toubu-right .sousuo .dianji .dj {
     width: 80px;
     height: 36px;
     padding: 0;
     background: transparent;
-    box-shadow: inset 0 0 0 rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
     border-radius: 0;
     border: 0;
     font-size: 0;
-    cursor:pointer;
+    cursor: pointer;
 }
-.toubu .toubu-right .remen{
+
+.toubu .toubu-right .remen {
     padding-top: 5px;
     font-size: 12px;
 }
-.toubu .toubu-right .remen a{
+
+.toubu .toubu-right .remen a {
     display: inline-block;
     padding: 0 20px 0 0;
     color: #333333;
 }
-.toubu .toubu-right .remen .fen{
+
+.toubu .toubu-right .remen .fen {
     color: #e40077;
 }
-.toubu .toubu-right .remen a:hover{
+
+.toubu .toubu-right .remen a:hover {
     color: #3eb4fa;
 }
-.header-list{
+
+.header-list {
     width: 1200px;
     height: 47px;
     margin: 0 auto;
     border-bottom: 1px solid #3eb4fa;
     position: relative;
 }
-.header-list .left{
+
+.header-list .left {
     background: #d83224;
     float: left;
     width: 235px;
@@ -187,50 +218,60 @@
     font-size: 17px;
     line-height: 47px;
 }
-.header-list .center{
+
+.header-list .center {
     float: left;
     height: 47px;
     padding-left: 29px;
 }
-.header-list .center li{
+
+.header-list .center li {
     float: left;
 }
-.header-list .center li a{
+
+.header-list .center li a {
     display: inline-block;
     padding: 0 29px;
     font-size: 16px;
     color: #222;
     line-height: 47px;
 }
-.header-list .center li .first{
+
+.header-list .center li .first {
     color: #3eb4fa;
 }
-.header-list .center li a:hover{
+
+.header-list .center li a:hover {
     color: #3eb4fa;
 }
-.banner{
+
+.banner {
     width: 1200px;
     height: 398px;
     margin: 0 auto;
     position: relative;
     background: #ffffff;
 }
-.banner .list{
+
+.banner .list {
     float: left;
     width: 235px;
     height: 398px;
 }
-.banner .list li{
+
+.banner .list li {
     clear: both;
     width: 233px;
     height: 52px;
     border: 1px solid #ffffff;
 }
-.banner .list li:hover{
+
+.banner .list li:hover {
     border-color: #3eb4fa;
     border-right: #fff;
 }
-.banner .list li a{
+
+.banner .list li a {
     float: left;
     display: block;
     width: 200px;
@@ -239,19 +280,23 @@
     font-size: 16px;
     color: #333333;
 }
-.banner .list li a:hover{
+
+.banner .list li a:hover {
     color: #3eb4fa;
 }
-.banner .list li a img{
+
+.banner .list li a img {
     margin-top: 15px;
     float: left;
 }
-.banner .list li a span{
+
+.banner .list li a span {
     display: block;
     float: left;
     margin-top: 13px;
 }
-.banner .list li a .you{
+
+.banner .list li a .you {
     display: block;
     float: right;
     margin-top: 18px;
@@ -260,16 +305,19 @@
     margin-right: 25px;
     color: #999;
 }
-.banner .list li a:hover .you{
+
+.banner .list li a:hover .you {
     color: #3eb4fa;
 }
-.banner .lunbo{
+
+.banner .lunbo {
     width: 705px;
     height: 398px;
     position: relative;
     float: left;
 }
-.banner .lunbo li{
+
+.banner .lunbo li {
     width: 705px;
     height: 398px;
     position: absolute;
@@ -278,29 +326,34 @@
     opacity: 0;
     transition: all 0.5s;
 }
-.banner .lunbo li.one{
+
+.banner .lunbo li.one {
     z-index: 1;
     opacity: 1;
 }
-.banner .lunbo li a img{
-    width:100%;
+
+.banner .lunbo li a img {
+    width: 100%;
     height: 398px;
 }
-.dian{
+
+.dian {
     width: 172px;
     height: 14px;
     position: absolute;
-    bottom:10px;
+    bottom: 10px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     z-index: 20;
 }
-.dian .one{
+
+.dian .one {
     background: rgba(228, 0, 120, 1);
 }
-.dian li{
+
+.dian li {
     cursor: pointer;
     float: left;
     display: block;
@@ -309,13 +362,16 @@
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.6);
 }
-.dian li:nth-child(1)~li{
+
+.dian li:nth-child(1) ~ li {
     margin-left: 10px;
 }
-.dian li:hover{
+
+.dian li:hover {
     background: rgba(228, 0, 120, 1);
 }
-.banner .left{
+
+.banner .left {
     display: none;
     width: 34px;
     height: 69px;
@@ -326,48 +382,57 @@
     z-index: 99;
     cursor: pointer;
 }
-.banner .right{
+
+.banner .right {
     left: 671px;
     z-index: 99;
 }
-.banner .hezi:hover .left{
+
+.banner .hezi:hover .left {
     display: block;
 }
-.banner .left:hover{
+
+.banner .left:hover {
     opacity: 0.6;
 }
-.banner .hezi{
+
+.banner .hezi {
     position: absolute;
     top: 0;
     left: 235px;
 }
-.banner .banner-right{
+
+.banner .banner-right {
     width: 260px;
     height: 398px;
     float: right;
     background: #ffffff;
 }
-.banner .banner-right .iconbox{
+
+.banner .banner-right .iconbox {
     width: 258px;
     height: 148px;
     margin: 0 auto;
     padding: 30px 0 0;
 }
-.banner .banner-right .iconbox ul li{
+
+.banner .banner-right .iconbox ul li {
     float: left;
     width: 86px;
     height: 74px;
     text-align: center;
     position: relative;
 }
-.banner .banner-right .iconbox ul li a{
+
+.banner .banner-right .iconbox ul li a {
     display: block;
     color: #333333;
     position: relative;
     width: 86px;
     height: 74px;
 }
-.banner .banner-right .iconbox ul li a img{
+
+.banner .banner-right .iconbox ul li a img {
     transition: 0.5s;
     width: 32px;
     height: 32px;
@@ -377,10 +442,12 @@
     top: 0;
     display: block;
 }
-.banner .banner-right .iconbox ul li a img:hover{
+
+.banner .banner-right .iconbox ul li a img:hover {
     transform: scale(1.1)
 }
-.banner .banner-right .iconbox ul li a p{
+
+.banner .banner-right .iconbox ul li a p {
     position: absolute;
     display: block;
     width: 86px;
@@ -390,7 +457,8 @@
     left: 0;
     top: 32px;
 }
-.banner .banner-right .iconbox ul li a span{
+
+.banner .banner-right .iconbox ul li a span {
     width: 21px;
     height: 21px;
     font-size: 14px;
@@ -403,13 +471,15 @@
     text-align: center;
     line-height: 21px;
 }
-.banner .banner-right .chongzhi{
+
+.banner .banner-right .chongzhi {
     width: 230px;
     margin: 0 auto;
     padding-top: 20px;
     border-top: 1px dotted #c2c2c2;
 }
-.banner .banner-right .chongzhi .tags{
+
+.banner .banner-right .chongzhi .tags {
     display: block;
     float: left;
     padding: 0 0 5px;
@@ -418,7 +488,8 @@
     color: #222222;
     border-bottom: 2px solid #ffffff;
 }
-.banner .banner-right .chongzhi .first{
+
+.banner .banner-right .chongzhi .first {
     display: block;
     float: left;
     padding: 0 0 5px;
@@ -427,7 +498,8 @@
     color: #3eb4fa;
     border-bottom: 2px solid #3eb4fa;
 }
-.banner .banner-right .chongzhi .tags:hover{
+
+.banner .banner-right .chongzhi .tags:hover {
     display: block;
     float: left;
     padding: 0 0 5px;
@@ -436,14 +508,16 @@
     color: #3eb4fa;
     border-bottom: 2px solid #3eb4fa;
 }
-.banner .banner-right .chongzhi .chongzhi-bottom{
+
+.banner .banner-right .chongzhi .chongzhi-bottom {
     width: 230px;
     padding-top: 13px;
     margin: 0 auto;
     overflow: hidden;
     display: block;
 }
-.banner .banner-right .chongzhi .chongzhi-bottom .shuru{
+
+.banner .banner-right .chongzhi .chongzhi-bottom .shuru {
     width: 208px;
     height: 33px;
     padding: 0 10px;
@@ -451,14 +525,16 @@
     border: 1px solid #dadada;
     color: #dadada;
 }
-.banner .banner-right .chongzhi .chongzhi-bottom .jiage{
+
+.banner .banner-right .chongzhi .chongzhi-bottom .jiage {
     width: 240px;
     height: 34px;
     padding: 10px 0;
     text-align: center;
 
 }
-.banner .banner-right .chongzhi .chongzhi-bottom .jiage a{
+
+.banner .banner-right .chongzhi .chongzhi-bottom .jiage a {
     float: left;
     display: inline-block;
     width: 37px;
@@ -472,22 +548,26 @@
     color: #666;
     transition: 0.5s;
 }
-.banner .banner-right .chongzhi .chongzhi-bottom .jiage a:hover{
+
+.banner .banner-right .chongzhi .chongzhi-bottom .jiage a:hover {
     border: 1px solid #e30077;
     color: #ffffff;
     background: #e30077;
 }
-.banner .banner-right .chongzhi .chongzhi-bottom .jiage a:first-child{
+
+.banner .banner-right .chongzhi .chongzhi-bottom .jiage a:first-child {
     border: 1px solid #e30077;
     color: #ffffff;
     background: #e30077;
 }
-.banner .banner-right .chongzhi .chongzhi-bottom .ljcz{
+
+.banner .banner-right .chongzhi .chongzhi-bottom .ljcz {
     width: 230px;
     margin: 0 auto;
     padding-top: 12px;
 }
-.banner .banner-right .chongzhi .chongzhi-bottom .ljcz a{
+
+.banner .banner-right .chongzhi .chongzhi-bottom .ljcz a {
     display: inline-block;
     float: right;
     width: 129px;
@@ -499,6 +579,7 @@
     background: #3eb4fa;
     line-height: 34px;
 }
+
 .navbox {
     display: none;
     width: 963px;
@@ -510,20 +591,24 @@
     top: -1px;
     z-index: 29;
 }
+
 .navbox_yy {
     width: 710px;
 }
+
 .navbox .navboxLeft {
     float: left;
     width: 640px;
     min-height: 396px;
     padding: 10px 30px;
 }
+
 .navbox .navboxLeft dl {
     float: left;
     width: 640px;
     padding: 5px 0;
 }
+
 .navbox .navboxLeft dl dt {
     float: left;
     width: 80px;
@@ -531,21 +616,25 @@
     color: #494949;
     background: url(../img/nav_bgli2.jpg) no-repeat 65px center;
 }
-.navbox .navboxLeft dl dt a{
+
+.navbox .navboxLeft dl dt a {
     text-decoration: none;
     transition: all 0.2s ease;
     cursor: pointer;
     color: #666;
 }
-.navbox .navboxLeft dl dt a:hover{
+
+.navbox .navboxLeft dl dt a:hover {
     color: #0085d0;
 }
+
 .navbox .navboxLeft dl dd {
     float: left;
     width: 560px;
     min-height: 30px;
     border-bottom: 1px solid #f3f3f3;
 }
+
 .navbox .navboxLeft dl dd a {
     display: block;
     float: left;
@@ -556,13 +645,16 @@
     color: #494949;
     border-right: 1px solid #d7d7d7;
 }
+
 .navbox .navboxLeft dl dd a:hover {
     color: #eb4099;
 }
+
 .navbox .navboxLeft dl dd a.more {
     color: #3eb4fa;
     border-right: none;
 }
+
 .navboxRight {
     float: left;
     width: 230px;
@@ -570,39 +662,46 @@
     padding: 10px 30px 10px 0px;
     background: #ffffff;
 }
+
 .navboxRight img {
     display: block;
     margin-bottom: 20px;
 }
-.youhui{
+
+.youhui {
     width: 1200px;
     margin: 20px auto 0;
     height: 170px;
 }
-.youhui .title{
+
+.youhui .title {
     float: left;
     width: 235px;
     height: 170px;
 }
-.youhui .title img{
+
+.youhui .title img {
     display: block;
     width: 235px;
     height: 170px;
 }
-.youhui .gundong{
+
+.youhui .gundong {
     float: right;
     width: 960px;
     height: 170px;
     overflow: hidden;
     position: relative;
 }
-.youhui ul{
+
+.youhui ul {
     position: relative;
     width: 5000px;
     height: 170px;
     margin-left: -482px;
 }
-.youhui ul li{
+
+.youhui ul li {
     position: relative;
     float: left;
     width: 235px;
@@ -610,10 +709,12 @@
     margin-right: 7px;
     background: #f4f4f4;
 }
-.youhui ul li a{
+
+.youhui ul li a {
     color: #666;
 }
-.youhui ul li h3{
+
+.youhui ul li h3 {
     width: 215px;
     padding: 13px 10px 0;
     font-weight: bold;
@@ -624,7 +725,8 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
-.youhui ul li p{
+
+.youhui ul li p {
     width: 215px;
     padding: 6px 10px 0;
     font-size: 14px;
@@ -634,96 +736,114 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
-.youhui ul li img{
+
+.youhui ul li img {
     width: 120px;
     height: 100px;
     position: absolute;
     right: 0;
     bottom: 0;
 }
-.youhui .btn{
+
+.youhui .btn {
     position: absolute;
     top: 70px;
     height: 35px;
     width: 28px;
     cursor: pointer;
 }
-.youhui .btn-left{
+
+.youhui .btn-left {
     background: url(../img/yh-btn-right.png) no-repeat;
     left: 0;
 }
-.youhui .btn-right{
+
+.youhui .btn-right {
     background: url(../img/yh-btn-left.png) no-repeat;
     right: 0;
 }
-h4{
+
+h4 {
     font-weight: normal;
 }
-.one{
+
+.one {
     width: 1200px;
     margin: 0 auto;
     height: 535px;
     overflow: hidden;
 }
-.one .top{
+
+.one .top {
     width: 100%;
     height: 67px;
     position: relative;
 }
-.one .biaoti{
-    display:  block;
+
+.one .biaoti {
+    display: block;
     float: left;
-    padding-top:32px;
+    padding-top: 32px;
     font-size: 22px;
     line-height: 22px;
     color: #222;
 }
-.one .top ul{
+
+.one .top ul {
     float: right;
     padding-top: 38px;
 }
-.one .top li{
+
+.one .top li {
     float: left;
     padding-right: 10px;
     font-size: 14px;
     line-height: 14px;
 }
-.one .top li a{
+
+.one .top li a {
     color: #666;
     font-weight: 400;
 }
-.one .top li a:hover{
+
+.one .top li a:hover {
     color: #3eb4fa;
 }
-.one .top li:first-of-type a{
-    color:#e30077;
+
+.one .top li:first-of-type a {
+    color: #e30077;
 }
-.one .box{
+
+.one .box {
     width: 1198px;
     height: 466px;
     margin: 0 auto;
     border: 1px solid #e8e8e8;
     overflow: hidden;
 }
-.one .l1{
+
+.one .l1 {
     float: left;
     width: 475px;
     height: 466px;
     border-right: 1px solid #E8E8E8;
 }
-.one .l1 .a1 img{
+
+.one .l1 .a1 img {
     display: block;
     width: 475px;
     height: 325px;
     border-bottom: 1px solid #E8E8E8;
 }
-.one .l1 .a2{
+
+.one .l1 .a2 {
     display: block;
     width: 475px;
     height: 140px;
     position: relative;
 }
-.one .l1 .a2 h4{
+
+.one .l1 .a2 h4 {
     width: 245px;
     padding: 50px 0 0 25px;
     font-size: 18px;
@@ -733,7 +853,8 @@ h4{
     text-overflow: ellipsis;
     overflow: hidden;
 }
-.one .l1 .a2 p{
+
+.one .l1 .a2 p {
     width: 245px;
     padding: 8px 0 0 25px;
     font-size: 14px;
@@ -743,35 +864,41 @@ h4{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.one .l1 .a2 img{
+
+.one .l1 .a2 img {
     position: absolute;
-    width:180px;
+    width: 180px;
     height: 140px;
     right: 0;
     top: 0;
 }
-.one .l2{
+
+.one .l2 {
     float: left;
     width: 240px;
     height: 466px;
     border-right: 1px solid #E8E8E8;
 }
-.one .l2>div{
+
+.one .l2 > div {
     width: 240px;
     height: 232px;
-    border-bottom: 1px solid#E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
     position: relative;
 }
-.one .l2 div:last-of-type{
+
+.one .l2 div:last-of-type {
     border: none;
 }
-.one .l2 .shang a{
+
+.one .l2 .shang a {
     display: block;
     width: 100%;
     height: 100%;
 }
-.one .l2 .shang h4{
-    width:210px;
+
+.one .l2 .shang h4 {
+    width: 210px;
     padding: 30px 15px 0;
     font-size: 18px;
     line-height: 18px;
@@ -780,7 +907,8 @@ h4{
     text-overflow: ellipsis;
     overflow: hidden;
 }
-.one .l2 .shang p{
+
+.one .l2 .shang p {
     width: 210px;
     padding: 10px 15px 0;
     font-size: 14px;
@@ -790,7 +918,8 @@ h4{
     text-overflow: ellipsis;
     overflow: hidden;
 }
-.one .l2 .shang img{
+
+.one .l2 .shang img {
     display: block;
     width: 240px;
     height: 120px;
@@ -798,33 +927,38 @@ h4{
     left: 0;
     bottom: 0;
 }
-.one .l3{
+
+.one .l3 {
     position: relative;
     float: left;
     width: 240px;
     height: 466px;
     border-right: 1px solid #E8E8E8;
 }
-.one .l3 a{
+
+.one .l3 a {
     display: block;
     height: 100%;
     width: 100%;
 }
-.one .l3 h4{
+
+.one .l3 h4 {
     width: 210px;
     padding: 24px 15px 0;
     font-size: 22px;
     line-height: 22px;
     color: #222222;
 }
-.one .l3 p{
+
+.one .l3 p {
     width: 210px;
     padding: 10px 15px 0;
     font-size: 14px;
     line-height: 14px;
     color: #808080;
 }
-.one .l3 img{
+
+.one .l3 img {
     display: block;
     width: 240px;
     height: 280px;
@@ -832,28 +966,32 @@ h4{
     left: 0;
     bottom: 0;
 }
-.three .box .a1{
+
+.three .box .a1 {
     display: block;
     width: 475px;
     height: 360px;
     border-bottom: 1px solid #E8E8E8;
     position: relative;
 }
-.three .box .a1 h4{
+
+.three .box .a1 h4 {
     width: 200px;
     padding: 25px 0 0 30px;
     font-size: 22px;
     line-height: 34px;
     color: #222222;
 }
-.three .box .a1 p{
+
+.three .box .a1 p {
     width: 220px;
     padding: 13px 0 0 30px;
     font-size: 14px;
     line-height: 14px;
     color: #808080;
 }
-.three .box .a1 img{
+
+.three .box .a1 img {
     display: block;
     width: 235px;
     height: 360px;
@@ -861,7 +999,8 @@ h4{
     top: 0;
     right: 0;
 }
-.three .box .a1 i{
+
+.three .box .a1 i {
     display: block;
     width: 220px;
     padding: 40px 0 0 30px;
@@ -869,22 +1008,26 @@ h4{
     line-height: 24px;
     color: #E40077;
 }
-.three .a3{
+
+.three .a3 {
     width: 475px;
     height: 105px;
 }
-.three .a3 a{
+
+.three .a3 a {
     display: block;
     float: left;
     width: 95px;
     height: 50px;
     margin: 1px 0;
 }
-.three .a3 a img{
+
+.three .a3 a img {
     height: 100%;
     width: 100%;
 }
-.three .shang i{
+
+.three .shang i {
     display: block;
     width: 210px;
     padding: 10px 15px 0;
@@ -892,7 +1035,8 @@ h4{
     line-height: 16px;
     color: #e40077;
 }
-.four .box li{
+
+.four .box li {
     width: 475px;
     height: 115px;
     margin: 0 auto;
@@ -900,24 +1044,28 @@ h4{
     background: #fff;
     position: relative;
 }
-.four .box li:last-of-type{
+
+.four .box li:last-of-type {
     border-bottom: none;
 }
-.four .box li h4{
+
+.four .box li h4 {
     width: 260px;
     padding: 25px 0 0 40px;
     font-size: 20px;
     line-height: 20px;
     color: #222222;
 }
-.four .box li p{
+
+.four .box li p {
     width: 260px;
     padding: 15px 0 0 40px;
     font-size: 14px;
     line-height: 14px;
     color: #222222;
 }
-.four .box li i{
+
+.four .box li i {
     display: block;
     width: 260px;
     padding: 10px 0 0 40px;
@@ -925,7 +1073,8 @@ h4{
     line-height: 16px;
     color: #E40077;
 }
-.four .box li img{
+
+.four .box li img {
     display: block;
     width: 100px;
     height: 100px;
@@ -933,49 +1082,58 @@ h4{
     top: 10px;
     right: 35px;
 }
-.five{
+
+.five {
     width: 1200px;
     height: 535px;
     overflow: hidden;
     margin: 0 auto;
 }
-.five .top{
+
+.five .top {
     width: 100%;
     height: 67px;
     margin: 0 auto;
 }
-.five .top a{
-    display:  block;
+
+.five .top a {
+    display: block;
     float: left;
-    padding-top:32px;
+    padding-top: 32px;
     font-size: 22px;
     line-height: 22px;
     color: #222;
 }
-.five .top ul{
+
+.five .top ul {
     float: right;
     padding-top: 38px;
 }
-.five .top li{
+
+.five .top li {
     float: left;
-    padding-right:10px;
+    padding-right: 10px;
     font-size: 14px;
     line-height: 14px;
 }
-.five .top  li a{
+
+.five .top li a {
     padding: 0;
     font-size: 14px;
     line-height: 14px;
     color: #666;
     font-weight: normal;
 }
-.five .top li a:hover{
+
+.five .top li a:hover {
     color: #3eb4fa;
 }
-.five .top  li .color{
+
+.five .top li .color {
     color: #E30077;
 }
-.five .box{
+
+.five .box {
     position: relative;
     width: 1198px;
     height: 466px;
@@ -983,7 +1141,8 @@ h4{
     border: 1px solid #e8e8e8;
     overflow: hidden;
 }
-.five .l1{
+
+.five .l1 {
     width: 237px;
     height: 466px;
     border-right: 1px solid #E8E8E8;
@@ -991,30 +1150,34 @@ h4{
     float: left;
     position: relative;
 }
-.five .l1 li{
+
+.five .l1 li {
     position: relative;
     width: 237px;
     height: 116px;
     border-bottom: 1px solid #E8E8E8;
 }
 
-.five .l1 h3{
+.five .l1 h3 {
     padding: 28px 0 0 28px;
     font-size: 20px;
     line-height: 20px;
     color: #222222;
     font-weight: normal;
 }
-.five .l1 .pink{
+
+.five .l1 h3.active {
     color: #ef2e72;
 }
-.five .l1 p{
+
+.five .l1 p {
     padding: 18px 0 0 28px;
     font-size: 14px;
     line-height: 14px;
     color: #808080;
 }
-.five .l1 span{
+
+.five .l1 span {
     display: block;
     height: 116px;
     width: 5px;
@@ -1022,64 +1185,85 @@ h4{
     top: 0;
     left: 0;
 }
-.five .l1 .line{
-    background: #ef2e72;
+
+.five .l1 li.active {
+    border-left: 5px solid #ef2e72;
+    background: #f6f7f7;
 }
-.five .l2{
+
+.five .l1 li.active h3 {
+    color: #ef2e72;
+}
+
+.five .l2 {
     width: 237px;
     height: 466px;
     border-right: 1px solid #E8E8E8;
     position: relative;
     float: left;
 }
-.five .l2 .big{
+
+.five .l2 .big {
     height: 100%;
     width: 100%;
     position: relative;
 }
-.five .l2 .big>li{
+
+.five .l2 .big > li {
     position: absolute;
     left: 0;
     padding: 20px 10px 0;
     top: 0;
     width: 217px;
     height: 446px;
+    display: none;
 }
-.five .l2 .big>li .title{
+
+.five .l2 .big > li.active {
+    display: block;
+}
+
+.five .l2 .big > li .title {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     overflow: hidden;
     align-items: center;
 }
-.five .l2 .big>li .title h2{
+
+.five .l2 .big > li .title h2 {
     font-size: 20px;
     line-height: 20px;
     color: #222;
     font-weight: normal;
 }
-.five .fanye{
+
+.five .fanye {
     display: flex;
     align-items: center;
     font-size: 16px;
     line-height: 20px;
     color: #808080;
 }
-.five .fanye img{
+
+.five .fanye img {
     display: inline;
     cursor: pointer;
 }
-.five .l2 .small a{
+
+.five .l2 .small a {
     width: 217px;
     margin: 0 auto 8px;
     display: flex;
     align-items: center;
 }
-.five .l2 .small img{
+
+.five .l2 .small img {
     width: 70px;
     height: 70px;
 }
-.five .l2 .small h5{
+
+.five .l2 .small h5 {
     width: 137px;
     margin-left: 10px;
     font-size: 16px;
@@ -1087,27 +1271,31 @@ h4{
     color: #333;
     font-weight: normal;
 }
-.five .l2 .small p{
+
+.five .l2 .small p {
     margin: 9px 0 0 10px;
     width: 137px;
     font-size: 14px;
     line-height: 14px;
     color: #808080;
 }
-.five .l3{
+
+.five .l3 {
     width: 722px;
     height: auto;
     overflow: hidden;
     float: right;
 }
-.f5-bar{
+
+.f5-bar {
     width: 710px;
     height: 210px;
     margin: 6px auto;
     overflow: hidden;
     position: relative;
 }
-.f5-bar>li{
+
+.f5-bar > li {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1116,14 +1304,17 @@ h4{
     opacity: 0;
     transition: all 0.5s;
 }
-.f5-bar>li.active{
+
+.f5-bar > li.active {
     opacity: 1;
 }
-.f5-bar li img{
+
+.f5-bar li img {
     width: 100%;
     height: 100%;
 }
-.f5-bar .yuan{
+
+.f5-bar .yuan {
     position: absolute;
     border-radius: 10px;
     background: #bbbbb9;
@@ -1132,7 +1323,8 @@ h4{
     transform: translateX(-50%);
     padding: 5px;
 }
-.f5-bar .yuan li{
+
+.f5-bar .yuan li {
     float: left;
     width: 10px;
     height: 10px;
@@ -1140,53 +1332,62 @@ h4{
     margin: 0 2px;
     background: #5d5d5c;
 }
-.f5-bar .yuan li.active{
+
+.f5-bar .yuan li.active {
     background: #e40078;
 }
-.f5-bar1{
+
+.f5-bar1 {
     width: 722px;
     height: auto;
     margin: 0 auto;
     border-top: 1px solid #E8E8E8;
 }
-.f5-bar1 .title{
+
+.f5-bar1 .title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-.f5-bar1 .title h2{
+
+.f5-bar1 .title h2 {
     color: #222;
     font-size: 20px;
     line-height: 20px;
     font-weight: normal;
 }
-.f5-bar1>ul{
+
+.f5-bar1 > ul {
     width: 722px;
     height: 146px;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
 }
-.f5-bar1>ul li{
+
+.f5-bar1 > ul li {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
 }
-.f5-bar1>ul li a{
+
+.f5-bar1 > ul li a {
     float: left;
     width: 120px;
     height: 144px;
     margin-left: 20px;
 }
-.f5-bar1>ul img{
+
+.f5-bar1 > ul img {
     width: 120px;
     height: 120px;
     display: block;
 }
-.f5-bar1>ul em{
+
+.f5-bar1 > ul em {
     display: block;
     text-align: center;
     padding-top: 5px;
@@ -1194,18 +1395,21 @@ h4{
     line-height: 14px;
     color: #666;
 }
-.tese{
+
+.tese {
     width: 1200px;
     margin: 0 auto;
 }
-.tese>h2{
+
+.tese > h2 {
     padding: 40px 0 30px;
     margin: 0 auto;
     font-size: 22px;
     line-height: 22px;
     color: #222222;
 }
-.tese dl{
+
+.tese dl {
     float: left;
     width: 299px;
     height: 80px;
@@ -1213,33 +1417,39 @@ h4{
     display: flex;
     align-items: center;
 }
-.tese dt{
+
+.tese dt {
     width: 80px;
     height: 80px;
 }
-.tese dt img{
+
+.tese dt img {
     width: 80px;
     height: 80px;
 }
-.tese dd{
+
+.tese dd {
     width: 199px;
     padding-left: 20px;
 }
-.tese dd h4{
+
+.tese dd h4 {
     width: 100%;
     padding-top: 15px;
     font-size: 18px;
     line-height: 18px;
     color: #222222;
 }
-.tese dd p{
+
+.tese dd p {
     width: 100%;
     padding-top: 11px;
     font-size: 14px;
     line-height: 14px;
     color: #808080;
 }
-.gonggao{
+
+.gonggao {
     width: 1198px;
     border: 1px solid #DFDFDF;
     margin: 10px auto 0;
@@ -1248,7 +1458,8 @@ h4{
     overflow: hidden;
     height: 38px;
 }
-.gonggao span{
+
+.gonggao span {
     display: block;
     float: left;
     width: 50px;
@@ -1256,17 +1467,20 @@ h4{
     background: url(../img/indexgg.gif) no-repeat 20px center;
     color: #666;
 }
-.gonggao ul{
+
+.gonggao ul {
     float: left;
     width: 1000px;
 }
-.gonggao ul li{
+
+.gonggao ul li {
     float: left;
     width: 470px;
     padding: 0 10px 0 20px;
     background: url(../img/indexgg.png) no-repeat 5px center;
 }
-.gonggao ul a{
+
+.gonggao ul a {
     float: left;
     display: block;
     width: 330px;
@@ -1274,145 +1488,172 @@ h4{
     font-size: 14px;
     line-height: 38px;
 }
-.gonggao ul em{
-    float:left;
-    display:block;
-    width:130px;
-    padding-left:10px;
+
+.gonggao ul em {
+    float: left;
+    display: block;
+    width: 130px;
+    padding-left: 10px;
     font-size: 14px;
     line-height: 38px;
-    color:#d5cccc;
+    color: #d5cccc;
 }
-.gonggao .btn{
+
+.gonggao .btn {
     cursor: pointer;
     float: right;
     padding: 0 20px 0 0;
 }
-.gonggao .btn i{
+
+.gonggao .btn i {
     float: left;
     width: 22px;
     height: 38px;
     font: bold 15px/38px "宋体";
     color: #3580ba;
 }
-.dongtai{
+
+.dongtai {
     width: 1198px;
     margin: 10px auto 0;
     padding-bottom: 18px;
-    border:1px solid #dfdfdf;
+    border: 1px solid #dfdfdf;
     overflow: hidden;
 }
-.dongtai .more{
+
+.dongtai .more {
     text-align: right;
     padding-top: 6px;
 }
-.dongtai .more a{
+
+.dongtai .more a {
     padding: 0 15px 0 0;
     color: #666;
     font-size: 12px;
     line-height: 12px;
 }
-.dongtai img{
+
+.dongtai img {
     float: left;
     display: block;
     padding: 7px 20px 0 23px;
     width: 43px;
     height: 43px;
 }
-.dongtai ul{
+
+.dongtai ul {
     float: left;
     width: 1000px;
 }
-.dongtai li{
+
+.dongtai li {
     float: left;
     width: 470px;
     padding: 0 10px 0 20px;
     font-size: 14px;
     line-height: 28px;
 }
-.dongtai li span{
+
+.dongtai li span {
     float: left;
     width: 10px;
 }
-.dongtai li a{
+
+.dongtai li a {
     float: left;
     width: 330px;
     color: #666666;
     overflow: hidden;
-    text-overflow:ellipsis;
+    text-overflow: ellipsis;
     white-space: nowrap;
 }
-.dongtai li a:hover{
+
+.dongtai li a:hover {
     color: #3eb4fa;
 }
-.dongtai li em{
+
+.dongtai li em {
     float: left;
     width: 120px;
     padding-left: 10px;
     color: #d5cccc;
 }
-.dibu-list{
+
+.dibu-list {
     width: 1163px;
     margin: 10px auto 0;
     border: 1px solid #dfdfdf;
     padding: 20px 0 20px 35px;
     overflow: hidden;
 }
-.dibu-list>div{
+
+.dibu-list > div {
     float: left;
     width: 20%;
 }
-.dibu-list>div h2{
-    font:bold 15px/27px "微软雅黑";
+
+.dibu-list > div h2 {
+    font: bold 15px/27px "微软雅黑";
     color: #666;
     height: 27px;
 }
-.dibu-list>div a:hover{
+
+.dibu-list > div a:hover {
     color: #3eb4fa;
 }
-.dibu-list a{
+
+.dibu-list a {
     display: block;
     font-size: 15px;
     line-height: 180%;
     color: #666;
 }
-footer{
+
+footer {
     width: 100%;
     padding: 20px 0;
     text-align: center;
     font-size: 12px;
     color: #333;
 }
-.db1,.db2{
+
+.db1, .db2 {
     line-height: 33px;
 }
-footer a{
+
+footer a {
     color: #666;
 }
-footer a:hover{
+
+footer a:hover {
     color: #3eb4fa;
     text-decoration: underline;
 }
-.db3{
+
+.db3 {
     padding-top: 4px;
     line-height: 18px;
 }
-.db4{
+
+.db4 {
     line-height: 33px;
     padding-top: 10px;
 }
-.db5{
+
+.db5 {
     display: flex;
     padding-top: 10px;
     line-height: 33px;
     align-items: center;
     justify-content: center;
 }
-.db5>a{
+
+.db5 > a {
     display: block;
     height: 47px;
 }
-.db5 p{
+
+.db5 p {
     background: url(../img/gov.gif) no-repeat;
     background-size: 21px 25px;
     padding: 0 0 0 25px;
@@ -1421,7 +1662,8 @@ footer a:hover{
     align-items: flex-end;
     line-height: 25px;
 }
-.header{
+
+.header {
     width: 100%;
     height: 61px;
     background: #FFFFFF;
@@ -1429,36 +1671,42 @@ footer a:hover{
     top: 0;
     z-index: 9999;
     border-bottom: 1px solid #24a7f9;
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     display: none;
 }
-.head-1200{
+
+.head-1200 {
     width: 1200px;
     height: 61px;
     margin: 0 auto;
 }
-.head-1200 a{
+
+.head-1200 a {
     display: block;
     float: left;
 }
-.head-1200 a img{
+
+.head-1200 a img {
     width: 230px;
     height: 42px;
     margin-top: 9px;
 }
-.header .nav{
+
+.header .nav {
     float: left;
     width: 589px;
     height: 50px;
     padding-top: 11px;
     padding-left: 45px;
 }
-.header .nav li{
+
+.header .nav li {
     float: left;
     height: 50px;
     padding: 0 17px;
 }
-.header .nav li a{
+
+.header .nav li a {
     display: block;
     height: 33px;
     padding: 0 7px;
@@ -1467,22 +1715,26 @@ footer a:hover{
     background: #ffffff;
     border-radius: 5px;
 }
-.header .nav li .active{
+
+.header .nav li .active {
     color: #ffffff;
     background: #2ba7ff;
 }
-.header .nav li a:hover{
+
+.header .nav li a:hover {
     color: #ffffff;
     background: #2ba7ff;
 }
-.header-sousuo{
+
+.header-sousuo {
     float: right;
     width: 285px;
     height: 45px;
     padding-top: 11px;
     margin-right: 50px;
 }
-.header-sousuo .input{
+
+.header-sousuo .input {
 
     padding-top: 0px;
     position: relative;
@@ -1491,28 +1743,31 @@ footer a:hover{
     box-sizing: border-box;
     background: url(../img/searchBg_t.jpg) no-repeat left center;
 }
-.header-sousuo .input .sousuo{
+
+.header-sousuo .input .sousuo {
     outline: none;
     border: 0;
     color: #666666;
     height: 28px;
     width: 200px;
     margin-top: 4px;
-    margin-left:5px;
+    margin-left: 5px;
     padding-left: 5px;
     font-size: 12px;
     box-sizing: border-box;
     border-radius: 0px;
     float: left;
 }
-.header-sousuo .btn{
+
+.header-sousuo .btn {
     width: 72px;
     height: 36px;
     float: right;
     box-sizing: border-box;
     /*background: #000000;*/
 }
-.header-sousuo .btn .tijiao{
+
+.header-sousuo .btn .tijiao {
     width: 72px;
     height: 28px;
     margin-left: 0px;
@@ -1525,7 +1780,8 @@ footer a:hover{
     color: #fff;
     cursor: pointer;
 }
-.cedaohang{
+
+.cedaohang {
     width: 40px;
     height: 280px;
     position: fixed;
@@ -1536,7 +1792,8 @@ footer a:hover{
     z-index: 999;
     /*background: red;*/
 }
-.cedaohang ul li{
+
+.cedaohang ul li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1553,21 +1810,24 @@ footer a:hover{
     font-size: 12px;
     cursor: pointer;
 }
-.cedaohang .back{
+
+.cedaohang .back {
     width: 32px;
     height: 54px;
     background: #918888;
     cursor: pointer;
     overflow: hidden;
 }
-.cedaohang .back img{
+
+.cedaohang .back img {
     display: block;
     width: 7px;
     height: 4px;
     margin: 0 auto;
     margin-top: 7px;
 }
-.cedaohang .back span{
+
+.cedaohang .back span {
     display: block;
     width: 28px;
     height: 30px;
@@ -1578,15 +1838,17 @@ footer a:hover{
     text-align: center;
     margin: 0 auto;
 }
-.cedaohang ul .active{
+
+.cedaohang ul .active {
     color: #ffffff;
     background: #00b0f9;
 }
-.cedaohang ul li span{
+
+.cedaohang ul li span {
     display: none;
     height: 39px;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     font-size: 12px;
     color: #FFFFFF;
@@ -1594,13 +1856,16 @@ footer a:hover{
     line-height: 15px;
     padding-top: 5px;
 }
-.cedaohang ul li:hover span{
+
+.cedaohang ul li:hover span {
     display: block;
 }
-.cedaohang ul li span.active{
+
+.cedaohang ul li span.active {
     display: block;
 }
-.shdf{
+
+.shdf {
     width: 40px;
     height: 118px;
     position: fixed;
@@ -1608,10 +1873,12 @@ footer a:hover{
     top: 290px;
     z-index: 900;
 }
-.shdf a img{
+
+.shdf a img {
     display: block;
 }
-.zxkf{
+
+.zxkf {
     width: 100px;
     height: auto;
     position: fixed;
@@ -1619,44 +1886,55 @@ footer a:hover{
     top: 420px;
     z-index: 900;
 }
-.zxkf li{
+
+.zxkf li {
     width: 100px;
     height: 38px;
     margin-bottom: 1px;
     overflow: hidden;
 }
-.zxkf li:hover a.lg1{
+
+.zxkf li:hover a.lg1 {
     background: #3EB4FA url(../img/kf1.png) no-repeat center center;
 }
-.zxkf li:hover a.lg2{
+
+.zxkf li:hover a.lg2 {
     background: #3EB4FA url(../img/kf2.png) no-repeat center center;
 }
-.zxkf li:hover a.lg3{
+
+.zxkf li:hover a.lg3 {
     background: #3EB4FA url(../img/kf3.png) no-repeat center center;
 }
-.zxkf li:hover .lg_wz{
+
+.zxkf li:hover .lg_wz {
     display: block;
     background: #3EB4FA;
 }
-.zxkf li a{
+
+.zxkf li a {
     display: block;
     float: right;
 }
-.zxkf li a.logo{
+
+.zxkf li a.logo {
     width: 40px;
     height: 38px;
     transition: 0s;
 }
-.zxkf li a.lg1{
+
+.zxkf li a.lg1 {
     background: #918888 url(../img/kf1.png) no-repeat center center;
 }
-.zxkf li a.lg2{
+
+.zxkf li a.lg2 {
     background: #918888 url(../img/kf2.png) no-repeat center center;
 }
-.zxkf li a.lg3{
+
+.zxkf li a.lg3 {
     background: #918888 url(../img/kf3.png) no-repeat center center;
 }
-.zxkf li a.lg_wz{
+
+.zxkf li a.lg_wz {
     display: none;
     width: 60px;
     height: 38px;
